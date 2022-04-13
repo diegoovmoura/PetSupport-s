@@ -3,21 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
 #topBar{
-    background-color: #C4C4C4;
+    background-color: #6B6B6B;
+    position: sticky;
+    width: 100%;
 }
 
 #bottomBar{
-    background-color: #C4C4C4;
+    background-color: #6B6B6B;
+    position: sticky;
+    width: 100%;
 }
 
 #button-login{
     margin-right: 90px;
+    background-color: aliceblue;
 }
 
 #button-signup{
     margin-right: 25px;
+    background-color: aliceblue;
 }
+
 #support{
     color: black;
     padding-top: 0.3125rem;
@@ -30,5 +45,9 @@
 
 #content{
     width: auto;
+    padding-top: 730px;
     border: 3px solid green;
+    background-color: aqua;
+    display: block;
+    height: auto;
 }
