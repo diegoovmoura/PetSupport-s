@@ -1,14 +1,26 @@
-*{
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-header{
-    position: fixed;
-    width: 100%;
-    margin: auto;
-    display: flex;
+header {
+    flex-shrink: 0;
+    /* padding-top: 0.25; */
+    /* padding-bottom: 0.25; */
+}
+
+main {
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 2em;
+    padding: 30px;
+    background-color: #D86305;
+}
+
+footer {
+    flex-shrink: 0;
+    padding-top: 1.8rem;
+    padding-bottom: 1.7rem;
 }
 
 #topBar{
@@ -19,7 +31,7 @@ header{
 
 #bottomBar{
     background-color: #6B6B6B;
-    position: sticky;
+    position: fixed;
     width: 100%;
 }
 
@@ -41,13 +53,4 @@ header{
     font-size: 1.25rem;
     text-decoration: none;
     margin-right: 10px;
-}
-
-#content{
-    width: auto;
-    padding-top: 730px;
-    border: 3px solid green;
-    background-color: aqua;
-    display: block;
-    height: auto;
 }
