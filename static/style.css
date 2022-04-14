@@ -14,7 +14,6 @@ main {
     overflow: auto;
     min-height: 2em;
     padding: 30px;
-    background-color: #D86305;
 }
 
 footer {
@@ -24,13 +23,13 @@ footer {
 }
 
 #topBar{
-    background-color: #6B6B6B;
+    background-color: #C4C4C4;
     position: sticky;
     width: 100%;
 }
 
 #bottomBar{
-    background-color: #6B6B6B;
+    background-color: #C4C4C4;
     position: fixed;
     width: 100%;
 }
