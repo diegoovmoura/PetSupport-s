@@ -10,9 +10,10 @@
     <link rel="icon" href="favicon.ico">
 
     <title>PetSuport's</title>
+    <script src="./script.js"></script>
   </head>
   
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100" onload="mostraPets()">
     <header>
       <nav id="topBar" class="navbar fixed-top navbar-light">
         <div class="container-fluid">
@@ -25,8 +26,11 @@
       </nav>
     </header>
 
-    <main>
-      <!-- <img src="..." class="rounded" alt="..."> -->
+    <main id="main">
+      <div id="templatePet" class="anuncioPet d-none">
+        <div class="fotoPet">(Foto do Animal)</div>
+        <p class="descPet">(Descrição)</p>
+      </div>
     </main>
 
     <footer>
