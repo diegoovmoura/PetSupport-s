@@ -41,24 +41,26 @@ footer {
     color: black;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
-    -right: 1rem;
     font-size: 1.25rem;
     text-decoration: none;
     margin-right: 10px;
 }
 
-
+.conjunto_anuncios{
+    display: flex;
+    overflow-x: auto;
+}
 .anuncioPet{
-    background-color: red;
-    width: 180px;
-    align-content: center;
-    margin-left: 20px;
+    background-color: #C4C4C4;
+    min-width: 180px;
+    max-width: 180px;
+    margin: 15px;
     height: 280px;
 }
 .fotoPet{
     height: 120px;
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 0, 0);
 }
 .descPet{
     text-align: center;
