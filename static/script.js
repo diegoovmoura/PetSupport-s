@@ -53,9 +53,6 @@ function mostraPets() {
         },
         {
             descricao: "Vaca"
-        },
-        {
-            descricao: "Vaca"
         }
     ]
     for (var i in dicionario) {
