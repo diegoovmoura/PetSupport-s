@@ -29,20 +29,27 @@
     <main id="main">
       <div id="telaInicial" class="d-none">
         <div id="tipoPets">
-          <div class="fotoFiltro"></div>
-          <div class="fotoFiltro"></div>
-          <div class="fotoFiltro"></div>
-          <div class="fotoFiltro"></div>
-          <div class="fotoFiltro"></div>
-        </div>
+          <img src="images/cachorro.jpg" class="fotoFiltro"></img>
+          <img src="images/gato.jpg" class="fotoFiltro"></img>
+          <img src="images/peixe.jpg" class="fotoFiltro"></img>
+          <img src="images/ave.jpg" class="fotoFiltro"></img>
+          <img src="images/cobra.jpg" class="fotoFiltro"></img>
+      </div>
+
+      <div>
+        <button id="button-search" type="button" class="btn btn-outline-secondary">Search</button>
+      </div>
         
-        <div class="conjunto_anuncios">
+      <div class="conjunto_anuncios">
           <div id="templatePet" class="anuncioPet d-none">
             <div class="fotoPet">(Foto do Animal)</div>
             <p class="descPet">{{ descricao }}</p>
           </div>          
         </div>
         <a href="javascript:mostrarTelaSecundaria()">Clique aqui para mudar de tela</a>
+        <div class="make_anuncios">
+          <button id="button-make" type="button" class="btn btn-outline-secondary">Make your announcement</button>
+        </div>
       </div>
 
       <div id="telaSecundaria" class="d-none">

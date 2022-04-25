@@ -53,11 +53,19 @@ footer {
 }
 .fotoFiltro{
     border-radius: 50%;
-    background-color: #C4C4C4;
     height: 65px;
     width: 65px;
     margin: 10px;
     display: inline-block;
+}
+#button-search{
+    width: 30%;
+    background-color: #C4C4C4;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    align-content: center;
 }
 .conjunto_anuncios{
     display: flex;
@@ -72,10 +80,18 @@ footer {
 }
 .fotoPet{
     height: 120px;
+    padding-top: 50px;
     text-align: center;
     /* background-color: rgb(255, 0, 0); */
 }
 .descPet{
     text-align: center;
     height: 150px;
+}
+#button-make{
+    background-color: #C4C4C4;
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-left: 580px;
 }
