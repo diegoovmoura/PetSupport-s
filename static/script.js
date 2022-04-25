@@ -43,7 +43,7 @@ function mostraPets() {
             descricao: "Cachorro"
         },
         {
-            descricao: "Vaca"
+            descricao: "flavio"
         },
         {
             descricao: "Gato"
@@ -52,7 +52,10 @@ function mostraPets() {
             descricao: "Cachorro"
         },
         {
-            descricao: "Vaca"
+            descricao: "flavio"
+        },
+        {
+            descricao: "Gato"
         }
     ]
     for (var i in dicionario) {
