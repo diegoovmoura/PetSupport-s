@@ -13,4 +13,4 @@ def index():
     
 @app.route("/<static_filename>")
 def static_files(static_filename):
-    return flask.send_file(f"../static/{static_filename}")    
+    return flask.send_file(f"static/{static_filename}")    

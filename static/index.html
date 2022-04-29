@@ -27,13 +27,14 @@
     </header>
             
     <main id="main">
+      <!---Tela Principal (Não Logado)--->
       <div id="telaInicial" class="d-none">
         <div id="tipoPets">
-          <img src="images/cachorro.jpg" class="fotoFiltro"></img>
-          <img src="images/gato.jpg" class="fotoFiltro"></img>
-          <img src="images/peixe.jpg" class="fotoFiltro"></img>
-          <img src="images/ave.jpg" class="fotoFiltro"></img>
-          <img src="images/cobra.jpg" class="fotoFiltro"></img>
+          <img src="/static/images/cachorro.jpg" class="fotoFiltro"></img>
+          <img src="/static/images/gato.jpg" class="fotoFiltro"></img>
+          <img src="/static/images/peixe.jpg" class="fotoFiltro"></img>
+          <img src="/static/images/ave.jpg" class="fotoFiltro"></img>
+          <img src="/static/images/cobra.jpg" class="fotoFiltro"></img>
       </div>
 
       <div>
@@ -46,14 +47,26 @@
             <p class="descPet">{{ descricao }}</p>
           </div>          
         </div>
-        <a href="javascript:mostrarTelaSecundaria()">Clique aqui para mudar de tela</a>
         <div class="make_anuncios">
-          <button id="button-make" type="button" class="btn btn-outline-secondary">Make your announcement</button>
+          <a href="javascript:mostrarTelaSecundaria()">
+            <button id="button-make" type="button" class="btn btn-outline-secondary" >Make your announcement</button>
+          </a>
         </div>
       </div>
 
+      <!--Tela de fazer Anúncios do Site-->
       <div id="telaSecundaria" class="d-none">
-        <p>Oi</p>
+        <div class="corpoAnuncio">
+          <div class="foto_anuncio"><p class="textFoto">Foto Pet</p></div>
+          <div class="type_pet">
+            <p class="edit_type">Type:</p>
+            <input type="text" class="submit_type"></input>
+          </div>
+        </div>
+      </div>
+
+      <div id="telaTerciaria" class="d-none">
+        
       </div>
     </main>
 

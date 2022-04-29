@@ -19,6 +19,7 @@ footer {
     padding-top: 1.8rem;
     padding-bottom: 1.7rem;
 }
+/* Tela Principal (Não Logado)*/
 #topBar{
     background-color: #C4C4C4;
     position: sticky;
@@ -94,4 +95,39 @@ footer {
     margin-top: 20px;
     margin-right: 500px;
     margin-left: 580px;
+}
+.corpoAnuncio{
+    width: 700px;
+    height: 550px;
+    background-color: #C4C4C4;
+    /* Centralizar na vertical e na horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.foto_anuncio{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textFoto{
+    text-align: center;
+    margin-left: 115px;
+    margin-top: 80px;
+    color: white;
+}
+.edit_type{
+    margin-left: -300px;
+}
+.submit_type{
+    background-color: white;
 }
