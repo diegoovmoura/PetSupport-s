@@ -19,7 +19,7 @@ footer {
     padding-top: 1.8rem;
     padding-bottom: 1.7rem;
 }
-/* Tela Principal (Não Logado)*/
+/* =======================Tela Principal=================*/
 #topBar{
     background-color: #C4C4C4;
     position: sticky;
@@ -96,6 +96,8 @@ footer {
     margin-right: 500px;
     margin-left: 580px;
 }
+
+/* =============================tela anuncio========================= */
 .corpoAnuncio{
     width: 700px;
     height: 550px;
@@ -130,4 +132,9 @@ footer {
 }
 .submit_type{
     background-color: white;
+}
+#forms
+{
+    display: grid;
+    margin-top: 80px;
 }

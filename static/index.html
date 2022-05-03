@@ -17,7 +17,7 @@
     <header>
       <nav id="topBar" class="navbar fixed-top navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand">PETSUPPORT'S</a>
+          <a href="javascript:mostrarTelaPrincipal()" class="navbar-brand">PETSUPPORT'S</a>
           <form class="d-flex">
             <button id="button-signup" type="button" class="btn btn-outline-secondary">Signup</button>
             <button id="button-login" type="button" class="btn btn-outline-secondary">Login</button>
@@ -27,7 +27,7 @@
     </header>
             
     <main id="main">
-      <!---Tela Principal (Não Logado)--->
+      <!--====================Tela Principal===================-->
       <div id="telaInicial" class="d-none">
         <div id="tipoPets">
           <img src="images/cachorro.jpg" class="fotoFiltro"></img>
@@ -35,32 +35,46 @@
           <img src="images/peixe.jpg" class="fotoFiltro"></img>
           <img src="images/ave.jpg" class="fotoFiltro"></img>
           <img src="images/cobra.jpg" class="fotoFiltro"></img>
-      </div>
-
-      <div>
-        <button id="button-search" type="button" class="btn btn-outline-secondary">Search</button>
-      </div>
-        
-      <div class="conjunto_anuncios">
+        </div>
+      
+        <div>
+          <button id="button-search" type="button" class="btn btn-outline-secondary">Search</button>
+        </div>
+      
+        <div class="conjunto_anuncios">
           <div id="templatePet" class="anuncioPet d-none">
             <div class="fotoPet">(Foto do Animal)</div>
             <p class="descPet">{{ descricao }}</p>
-          </div>          
+          </div>
         </div>
         <div class="make_anuncios">
           <a href="javascript:mostrarTelaSecundaria()">
-            <button id="button-make" type="button" class="btn btn-outline-secondary" >Make your announcement</button>
+            <button id="button-make" type="button" class="btn btn-outline-secondary">Make your announcement</button>
           </a>
         </div>
       </div>
 
-      <!--Tela de fazer Anúncios do Site-->
+      <!--====================Tela de anunciar===================-->
       <div id="telaSecundaria" class="d-none">
         <div class="corpoAnuncio">
           <div class="foto_anuncio"><p class="textFoto">Foto Pet</p></div>
-          <div class="type_pet">
-            <p class="edit_type">Type:</p>
-            <input type="text" class="submit_type"></input>
+          <div id="forms">
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Type</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Type:">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Breed</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Breed:">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Age</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Age:">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Vacine</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Age:">
+            </div>
           </div>
         </div>
       </div>

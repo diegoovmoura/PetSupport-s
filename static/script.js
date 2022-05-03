@@ -62,6 +62,14 @@ function mostraPets() {
         expande("templatePet", dicionario[i]);
     }
 }
+
+function mostrarTelaPrincipal() {
+    var telaAnterior = document.getElementById("telaSecundaria");
+    var telaAtual = document.getElementById("telaInicial");
+    telaAnterior.classList.add("d-none");
+    telaAtual.classList.remove("d-none");
+}
+
 function mostrarTelaSecundaria() {
     var telaAnterior = document.getElementById("telaInicial");
     var telaAtual = document.getElementById("telaSecundaria");
