@@ -14,13 +14,13 @@
   </head>
   
   <body class="d-flex flex-column h-100" onload="mostraPets()">
-    <header>
+    <header id="header">
       <nav id="topBar" class="navbar fixed-top navbar-light">
         <div class="container-fluid">
           <a href="javascript:mostrarTelaPrincipal()" class="navbar-brand">PETSUPPORT'S</a>
           <form class="d-flex">
             <button id="button-signup" type="button" class="btn btn-outline-secondary">Signup</button>
-            <button id="button-login" type="button" class="btn btn-outline-secondary">Login</button>
+            <button onclick="mostrarTelaLogin()" id="button-login" type="button" class="btn btn-outline-secondary">Login</button>
           </form>
         </div>
       </nav>
@@ -48,9 +48,7 @@
           </div>
         </div>
         <div class="make_anuncios">
-          <a href="javascript:mostrarTelaSecundaria()">
-            <button id="button-make" type="button" class="btn btn-outline-secondary">Make your announcement</button>
-          </a>
+          <button onclick="mostrarTelaSecundaria()" id="button-make" type="button" class="btn btn-outline-secondary">Make your announcement</button>
         </div>
       </div>
 
@@ -79,12 +77,13 @@
         </div>
       </div>
 
+      <!--====================Tela de login===================-->
       <div id="telaTerciaria" class="d-none">
-        
+        <h1 id="titulo_login" class="justify-content-center">PETSUPPORT'S</h1>
       </div>
     </main>
 
-    <footer>
+    <footer id="footer">
       <nav id="bottomBar" class="navbar fixed-bottom navbar-light">
         <div class="container-xl">
           <a id="support" href="#">Support</a>

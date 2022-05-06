@@ -138,3 +138,9 @@ footer {
     display: grid;
     margin-top: 80px;
 }
+
+/* =============================tela login========================= */
+#titulo_login
+{
+    background-color: #C4C4C4;
+}

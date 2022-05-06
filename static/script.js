@@ -76,3 +76,15 @@ function mostrarTelaSecundaria() {
     telaAnterior.classList.add("d-none");
     telaAtual.classList.remove("d-none");
 }
+
+function mostrarTelaLogin() {
+    var header = document.getElementById("header");
+    var footer = document.getElementById("footer");    
+    var telaAnterior = document.getElementById("telaInicial");
+    var telaAtual = document.getElementById("telaTerciaria");
+    header.classList.add("d-none");
+    footer.classList.add("d-none");
+    telaAnterior.classList.add("d-none");
+    telaAtual.classList.remove("d-none");
+
+}
