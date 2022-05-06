@@ -32,11 +32,11 @@ footer {
 }
 #button-login{
     margin-right: 90px;
-    background-color: aliceblue;
+    background-color: #F9F9F9;
 }
 #button-signup{
     margin-right: 25px;
-    background-color: aliceblue;
+    background-color: #F9F9F9;
 }
 #support{
     color: black;
@@ -147,4 +147,26 @@ footer {
     text-align: center;
     width: 500px;
     margin-top: 110px;
+}
+#dados
+{
+    background-color: #C4C4C4;
+    width: 500px;
+    height: 300px;
+}
+.form-login
+{
+    width: 300px;
+    margin: 15px;
+}
+#form-login-group
+{
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#buttom-login
+{
+    background-color: #F9F9F9;
+    width: 100px;
+    margin-left: 110px;
 }
