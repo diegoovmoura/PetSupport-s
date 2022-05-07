@@ -168,5 +168,11 @@ footer {
 {
     background-color: #F9F9F9;
     width: 100px;
-    margin-left: 110px;
+    margin-top: 80px;
+}
+#Register-buttom
+{
+    background-color: #C4C4C4;
+    width: 190px;
+    bottom: 150px;
 }
