@@ -58,21 +58,45 @@
           <div class="foto_anuncio"><p class="textFoto">Foto Pet</p></div>
           <div id="forms">
             <div class="form-group">
-              <label for="exampleFormControlInput1">Type</label>
+              <label for="exampleFormControlInput1" class="text">Type</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Type:">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Breed</label>
+              <label for="exampleFormControlInput1" class="text">Breed</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Breed:">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Age</label>
+              <label for="exampleFormControlInput1" class="text">Age</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Age:">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Vacine</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Age:">
+              <label for="exampleFormControlInput1" class="text">Vacine</label>
+              <div class="multiple_choices">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio">Yes</label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
             </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1" class="text">Gender</label>
+              <div class="multiple_choices">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">M</label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2_gender" value="option2">
+                <label class="form-check-label" for="inlineRadio2">F</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1" class="text">Castrated</label>
+              <div class="multiple_choices">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Yes</label>
+                <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">No</label>
+              </div>
+            </div>
+            <button id="button-confirm" type="button" class="btn btn-outline-secondary">Confirm</button>
           </div>
         </div>
       </div>
