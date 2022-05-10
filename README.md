@@ -4,3 +4,8 @@ This is a dedicated repository for the CESAR school university's Software Fundam
 ## PetSupport's
 It´s a project that has the objective to decimate the abandonment of animals in Recife-PE, through a portal of adoption and donation of pets.
 
+## Team
+- Rafael Alves;
+- Diego Moura;
+- Flávio Vieira;
+- Rafael Menezes;
