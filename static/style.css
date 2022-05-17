@@ -4,8 +4,6 @@ html, body {
 }
 header {
     flex-shrink: 0;
-    /* padding-top: 0.25; */
-    /* padding-bottom: 0.25; */
 }
 main {
     flex-grow: 1;
@@ -19,11 +17,13 @@ footer {
     padding-top: 1.8rem;
     padding-bottom: 1.7rem;
 }
-/* =======================Tela Principal=================*/
+
+/* =======================TopBar e BottomBar=================*/
 #topBar{
     background-color: #C4C4C4;
     position: sticky;
     width: 100%;
+    max-height: 55px;
 }
 #bottomBar{
     background-color: #C4C4C4;
@@ -38,7 +38,19 @@ footer {
     margin-right: 25px;
     background-color: #F9F9F9;
 }
+#fotoUsuario{
+    background-color: black;
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+    margin-right: 105px;
+}
+#myAnouncements{
+    justify-content: center;
+    
+}
 #support{
+    justify-content: flex-end;
     color: black;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
@@ -46,7 +58,16 @@ footer {
     text-decoration: none;
     margin-right: 10px;
 }
+.navbar>.container-xl
+{
+    justify-content: flex-end;
+}
+.navbar-brand
+{
+    margin-left: 60px;
+}
 
+/* =======================Tela Principal=================*/
 #tipoPets{
     align-content: center;
     margin-right: 500px;
@@ -181,22 +202,24 @@ footer {
 .form-login
 {
     width: 300px;
-    margin: 15px;
+    margin: 10px;
 }
 #form-login-group
 {
-    margin-left: 75px;
+    margin-left: 80px;
     margin-top: 60px;
 }
 #buttom-login
 {
     background-color: #F9F9F9;
     width: 100px;
-    margin-top: 80px;
 }
 #Register-buttom
 {
     background-color: #C4C4C4;
     width: 190px;
     bottom: 150px;
+}
+#buttoms-login{
+    bottom: 35px;
 }

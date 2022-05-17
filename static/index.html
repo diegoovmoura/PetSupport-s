@@ -13,15 +13,17 @@
     <script src="./script.js"></script>
   </head>
   
-  <body class="d-flex flex-column h-100" onload="mostraPets()">
+  <body class="d-flex flex-column h-100" onload="inicializa()">
     <header id="header">
-      <nav id="topBar" class="navbar fixed-top navbar-light">
-        <div class="container-fluid">
+      <nav id="topBar" class="navbar fixed-top navbar-light d-flex">
+        <div class="container-fluid d-flex">
           <a href="javascript:mostrarTelaPrincipal()" class="navbar-brand">PETSUPPORT'S</a>
-          <form class="d-flex">
+          <div id="botoesLogar" class="d-flex">
             <button id="button-signup" type="button" class="btn btn-outline-secondary">Signup</button>
             <button onclick="mostrarTelaLogin()" id="button-login" type="button" class="btn btn-outline-secondary">Login</button>
-          </form>
+          </div>
+          <a id="myAnouncements" href="" class="d-none">Meus Anúncios</a>
+          <div id="fotoUsuario" class="d-none"></div>
         </div>
       </nav>
     </header>
@@ -58,16 +60,16 @@
           <div class="foto_anuncio"><p class="textFoto">Foto Pet</p></div>
           <div id="forms">
             <div class="form-group">
-              <label for="exampleFormControlInput1" class="text">Type</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Type:">
+              <label for="textType" class="text">Type</label>
+              <input type="email" class="form-control" id="textType" placeholder="type the Type:">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1" class="text">Breed</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Breed:">
+              <label for="textBreed" class="text">Breed</label>
+              <input type="email" class="form-control" id="textBreed" placeholder="type the Breed:">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1" class="text">Age</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="type the Age:">
+              <label for="textAge" class="text">Age</label>
+              <input type="email" class="form-control" id="textAge" placeholder="type the Age:">
             </div>
             <div class="form-group">
               <label for="exampleFormControlInput1" class="text">Vacine</label>
@@ -110,15 +112,19 @@
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Username:">
             </div>
             <div class="form-login form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Password:">
-            </div>
-            <div class="position-absolute start-50 translate-middle">
-              <button id="buttom-login" type="button" class="btn btn-outline-secondary">Cancel</button>
-              <button id="buttom-login" type="button" class="btn btn-outline-secondary">login</button>
+              <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="Password:">
             </div>
           </div>
+          <div id="buttoms-login" class="position-absolute start-50 translate-middle">
+            <button onclick="voltarTelaPrincipal()" id="buttom-login" type="button" class="btn btn-outline-secondary">Cancel</button>
+            <button onclick="autenticar()" id="buttom-login" type="button" class="btn btn-outline-secondary">login</button>
+          </div>
         </div>
-        <button id="Register-buttom" type="button" class="position-absolute start-50 translate-middle btn btn-outline-secondary">Register Now</button>
+        <button onclick="" id="Register-buttom" type="button" class="position-absolute start-50 translate-middle btn btn-outline-secondary">Register Now</button>
+      </div>
+
+      <div id="tela5">
+
       </div>
     </main>
 
