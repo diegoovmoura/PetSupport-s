@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 header {
     flex-shrink: 0;
@@ -11,6 +14,7 @@ main {
     min-height: 2em;
     padding: 30px;
     display: flex;
+    background-color: #f9f9f9;
 }
 footer {
     flex-shrink: 0;
@@ -81,6 +85,7 @@ footer {
     display: inline-block;
 }
 #button-search{
+    border: none;
     width: 30%;
     background-color: #C4C4C4;
     margin-top: 10px;
@@ -94,6 +99,7 @@ footer {
     overflow-x: auto;
 }
 .anuncioPet{
+    border-radius: 15px;
     background-color: #C4C4C4;
     min-width: 180px;
     max-width: 180px;
@@ -108,21 +114,24 @@ footer {
 }
 .descPet{
     text-align: center;
-    height: 150px;
+    height: 150px;  
 }
 #button-make{
+    border: none;
     background-color: #C4C4C4;
-    width: 20%;
-    margin-top: 20px;
+    width: 30%;
+    margin-top: 40px;
     margin-right: 500px;
-    margin-left: 580px;
+    margin-left: 500px;
 }
 
 /* =============================tela anuncio========================= */
 .corpoAnuncio{
+    border-radius: 15px;
     width: 700px;
     height: 550px;
     background-color: #C4C4C4;
+    box-shadow: 0px 10px 40px rgba(66, 66, 66, 0.704);
     /* Centralizar na vertical e na horizontal */
     display: flex;
     justify-content: center;
@@ -133,9 +142,10 @@ footer {
     transform: translate(-50%, -50%);
 }
 .foto_anuncio{
+    border-radius: 10px;
     width: 300px;
     height: 200px;
-    background-color: black;
+    background-color: #6B6B6B;
     display: flex;
     position: absolute;
     margin-top: -100px;
@@ -183,11 +193,17 @@ footer {
     background-color: white;
     margin-top: 10px;
 }
+#button-confitm:hover{
+    background-color: red;
+}
 
 /* =============================tela login========================= */
 #titulo_login
 {
     background-color: #C4C4C4;
+    box-shadow: 0px 9px 30px rgba(108, 108, 108, 0.392);
+    border-radius: 10px;
+    position: fixed;
     height: 55px;
     text-align: center;
     width: 500px;
@@ -198,6 +214,8 @@ footer {
     background-color: #C4C4C4;
     width: 500px;
     height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 9px 30px rgba(108, 108, 108, 0.392);
 }
 .form-login
 {
@@ -216,8 +234,10 @@ footer {
 }
 #Register-buttom
 {
+    border: none;
     background-color: #C4C4C4;
-    width: 190px;
+    width: 210px;
+    height: 40px;
     bottom: 150px;
 }
 #buttoms-login{
