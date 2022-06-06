@@ -13,6 +13,7 @@ A website made for donating and adopting pets.
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
+- [Run Tests](#run-tests)
 - [Usage](#usage)
 - [Status](#status)
 - [Sources](#sources)
@@ -64,6 +65,24 @@ Then, install it using WSL-Linux
 ```
 FLASK_APP = src/app.py
 FLASK_ENV = development flask run
+```
+
+## Run Tests
+
+First, to run the tests you need to install the last version of [Pytest](https://docs.pytest.org/en/7.1.x/getting-started.html)
+
+After installed, to run the tests open your Terminal and find the directory that containes the Project!
+
+Now use this commad to run the tests:
+
+```
+pytest
+```
+
+Or you can use for a report with more information:
+
+```
+pytest -v
 ```
 
 ## Usage
