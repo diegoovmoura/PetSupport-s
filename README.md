@@ -43,11 +43,11 @@ Project is created with:
 
 ## Screenshots
 
-### ![main](https://imgur.com/Y1NQAuO)
+### ![main](https://i.imgur.com/Y1NQAuO.png)
 
-### ![login](https://imgur.com/hn6VOya)
+### ![login](https://i.imgur.com/hn6VOya.png)
 
-### ![signin](https://imgur.com/lYch24C)
+### ![addpet](https://i.imgur.com/lYch24C.png)
 
 ## Setup
 
