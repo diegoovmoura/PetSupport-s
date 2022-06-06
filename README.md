@@ -88,8 +88,8 @@ Project is: in progress.
 | Student        | Contact                    |
 | -------------- | -------------------------- |
 | Diego Moura    | diegoovmoura@gmail.com     |
-| Flávio Vieira  | ??                         |
-| Rafael Alves   | ??                         |
+| Flávio Vieira  | flaviotefilho@gmail.com    |
+| Rafael Alves   | rjhxalves@gmail.com        |
 | Rafael Menezes | rafaelmsabarreto@gmail.com |
 
 ## License
