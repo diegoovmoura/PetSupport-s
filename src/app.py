@@ -4,17 +4,21 @@ import sys
 # import sqlalchemy.orm 
 import flask 
 
+# INIT
 app = flask.Flask(__name__)
 app.secret_key = "oerifjw;DFjniwrnvKesj_slfiun*&"
 
-@app.route("/")
+# CONTROLLER
+@app.route('/') 
 def index():
     return flask.send_file("../static/index.html")
-    
+
+# CONTROLLER
 @app.route("/<path:static_filename>")
 def static_files(static_filename):
-    return flask.send_file(f"../static/{static_filename}")   
+    return flask.send_file(f"../static/{static_filename}")
 
+# MODELS
 @app.route('/animais', methods = ['GET'])
 def animais():
     dicionario = [
@@ -25,7 +29,7 @@ def animais():
             "descricao": "Cachorro"
         },
         {
-            "descricao": "flavio"
+            "descricao": "Peixe"
         },
         {
             "descricao": "Gato"
@@ -34,7 +38,7 @@ def animais():
             "descricao": "Cachorro"
         },
         {
-            "descricao": "flavio"
+            "descricao": "Passáro"
         },
         {
             "descricao": "Gato"
@@ -42,6 +46,7 @@ def animais():
     ]
     return flask.jsonify(dicionario)
 
+# MODELS
 @app.route('/autenticar', methods = ['POST'])
 def autenticar():
     obj = flask.request.get_json()
@@ -49,17 +54,10 @@ def autenticar():
     senha = obj['senha']
     emails_validos = [
         'dovm@cesar.school',
-        'elgr@cesar.school',
-        'ffcl@cesar.school',
-        'jhcc2@cesar.school',
-        'pevs@cesar.school',
-        'csgg@cesar.school',
-        'mk2@cesar.school',
-        'mjwps@cesar.school'
+        'rjhxa@cesar.school'
     ]
     email_invalido = email not in emails_validos
     senha_invalida = senha != '12345'
     if email_invalido or senha_invalida:
         return flask.jsonify(False)
     return flask.jsonify(True) 
-
