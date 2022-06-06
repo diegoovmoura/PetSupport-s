@@ -60,7 +60,7 @@ To run this project, you'll also need WSL-Linux, simply enter this command in CM
 wsl --install
 ```
 
-Then, install it using WSL-Linux
+Then, install it using WSL-LinuX
 
 ```
 FLASK_APP = src/app.py
